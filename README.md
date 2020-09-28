@@ -5,4 +5,4 @@ The dataset I used was the Prostate_cancer.csv dataset which contains informatio
 
 This was done using the Kth Nearest Neighbour algorithm by taking columns two onwards (data points), and testing with the results in column one (diagnosis) with a computed K value of 3.
 
-After conducting the test, both the f-score, and accuracy test were 1.0. The reason behind this was the clear correlation between the data points and the diagnosis result, which is tough to see in practice. 
+After conducting the test, both the f-score, and accuracy test were 1.0, likely caused by the similarities present in the training, and testing sets due to the patients having similar or near similar data points. 
